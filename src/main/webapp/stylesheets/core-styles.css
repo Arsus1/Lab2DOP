@@ -1,0 +1,38 @@
+
+/*** Core styles ***/
+
+@font-face {
+    font-family: Supercell Magic;
+    src: url("../fonts/UAV-OSD-Sans-Mono.ttf");
+}
+
+
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    top: 0;
+    font-family: Supercell Magic;
+    font-size: 14px;
+    background-color: #fdfdfd;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.sticky {
+    top: 0;
+    width: 100%;
+    position: fixed;
+}
+
+.clearfix::after {
+    display: block;
+    content: "";
+    clear: both;
+}
